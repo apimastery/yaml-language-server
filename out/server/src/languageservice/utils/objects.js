@@ -4,6 +4,7 @@
  *--------------------------------------------------------------------------------------------*/
 'use strict';
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.isString = exports.isBoolean = exports.isDefined = exports.isNumber = exports.equals = void 0;
 // eslint-disable-next-line @typescript-eslint/no-explicit-any, @typescript-eslint/explicit-module-boundary-types
 function equals(one, other) {
     if (one === other) {

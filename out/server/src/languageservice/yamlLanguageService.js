@@ -5,6 +5,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.getLanguageService = void 0;
 const yamlSchemaService_1 = require("./services/yamlSchemaService");
 const documentSymbols_1 = require("./services/documentSymbols");
 const yamlCompletion_1 = require("./services/yamlCompletion");

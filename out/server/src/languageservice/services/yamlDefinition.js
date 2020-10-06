@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.findDefinition = void 0;
 const yamlParser07_1 = require("../parser/yamlParser07");
 const arrUtils_1 = require("../utils/arrUtils");
 const jsonDefinition_1 = require("vscode-json-languageservice/lib/umd/services/jsonDefinition");

@@ -4,6 +4,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.stringifyObject = void 0;
 function stringifyObject(obj, indent, stringifyLiteral, settings, depth = 0, consecutiveArrays = 0) {
     if (obj !== null && typeof obj === 'object') {
         /**

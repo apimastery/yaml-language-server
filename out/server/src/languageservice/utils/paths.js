@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.workspaceFoldersChanged = exports.relativeToAbsolutePath = exports.isRelativePath = void 0;
 const path_1 = require("path");
 const vscode_uri_1 = require("vscode-uri");
 exports.isRelativePath = (path) => {

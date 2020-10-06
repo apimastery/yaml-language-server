@@ -5,6 +5,7 @@
  *--------------------------------------------------------------------------------------------*/
 'use strict';
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.YAMLHover = void 0;
 const arrUtils_1 = require("../utils/arrUtils");
 const yamlParser07_1 = require("../parser/yamlParser07");
 const jsonHover_1 = require("vscode-json-languageservice/lib/umd/services/jsonHover");

@@ -5,6 +5,7 @@
  *--------------------------------------------------------------------------------------------*/
 'use strict';
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.getPosition = exports.getLineStartPositions = exports.binarySearch = exports.insertionPointReturnValue = void 0;
 const vscode_languageserver_types_1 = require("vscode-languageserver-types");
 function insertionPointReturnValue(pt) {
     return -pt - 1;

@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.schemaRequestHandler = void 0;
 const vscode_uri_1 = require("vscode-uri");
 const request_light_1 = require("request-light");
 const fs = require("fs");

@@ -4,6 +4,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.createExpectedCompletion = exports.createExpectedDocumentSymbol = exports.createExpectedSymbolInformation = exports.createExpectedError = void 0;
 function createExpectedError(message, startLine, startCharacter, endLine, endCharacter, severity = 2) {
     return {
         message,

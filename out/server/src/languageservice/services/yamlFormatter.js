@@ -5,6 +5,7 @@
  *--------------------------------------------------------------------------------------------*/
 'use strict';
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.YAMLFormatter = void 0;
 const vscode_languageserver_types_1 = require("vscode-languageserver-types");
 const prettier = require("prettier");
 const parser = require("prettier/parser-yaml");

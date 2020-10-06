@@ -5,6 +5,7 @@
  *--------------------------------------------------------------------------------------------*/
 'use strict';
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.YAMLCompletion = void 0;
 const Parser = require("../parser/jsonParser07");
 const yamlParser07_1 = require("../parser/yamlParser07");
 const vscode_languageserver_types_1 = require("vscode-languageserver-types");

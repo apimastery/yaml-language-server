@@ -6,6 +6,7 @@
  *--------------------------------------------------------------------------------------------*/
 'use strict';
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.customLanguageService = void 0;
 const vscode_languageserver_1 = require("vscode-languageserver");
 const request_light_1 = require("request-light");
 const URL = require("url");

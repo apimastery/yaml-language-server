@@ -4,6 +4,7 @@
  *--------------------------------------------------------------------------------------------*/
 'use strict';
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.convertSimple2RegExpPattern = exports.convertSimple2RegExp = exports.endsWith = exports.startsWith = void 0;
 function startsWith(haystack, needle) {
     if (haystack.length < needle.length) {
         return false;

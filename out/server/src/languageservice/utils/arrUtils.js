@@ -4,6 +4,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.filterInvalidCustomTags = exports.matchOffsetToDocument = exports.removeDuplicatesObj = exports.getLineOffsets = void 0;
 function getLineOffsets(textDocString) {
     const lineOffsets = [];
     const text = textDocString;
